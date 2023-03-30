@@ -1,0 +1,201 @@
+ul {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: montserrat;
+  box-sizing: border-box;
+}
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+
+
+}
+nav{
+  text-align: left;
+  background: #0082e6;
+  height: 80px;
+  width: 100%;
+
+}
+label.logo {
+  color: #fff;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+}
+nav ul {
+  float: right;
+  margin-right: 50px;
+}
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+nav ul li a {
+  color: white;
+  font-weight: 17px;
+  text-transform: uppercase;
+  text-decoration: none;
+  list-style: none;
+  font-family: montserrat;
+}
+a:hover{
+  background: red;
+  transition: 1s;
+}
+h1  {
+  font-size: 90px;
+  color: #66bfbf;
+  line-height: 1;
+  margin: 50px auto 0 auto;
+  font-family: 'Satisfy', cursive;
+
+}
+h2 {
+  color: #66bfbf;
+  font-size: 2.5rem;
+  font-family: 'Edu NSW ACT Foundation', cursive;
+}
+#heading_weight {
+  font-weight: normal;
+}
+h3  {
+    color: #11999E;
+    font-family: 'Raleway', sans-serif;
+}
+/*containers*/
+.top-container {
+  background-color: #e4f9fe;
+  position: relative;
+  padding-top: 100px;
+
+}
+.middle-container {
+margin: 100px 0;
+
+}
+.bottom-container {
+  margin: 100px 0 0 0;
+  background-color: #66bfbf;
+  height:  100px;
+
+}
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+
+}
+.Skills {
+
+}
+.contact-me{
+  margin: auto;
+}
+/*img styling*/
+.profile_img {
+  height: 150px;
+  width: 150px;
+}
+.cloud_img {
+  height: 100px;
+  width: 150px;
+}
+.top_cloud {
+  position: absolute;
+  top: 25px;
+  right: 400px;
+}
+.bottom_cloud {
+  position: absolute;
+  bottom: 250px;
+  left: 320px;
+
+}
+.intro{
+  width: 30%;
+  margin: auto;
+  line-height: 2;
+}
+#footer_p {
+  color: #EAf6f6;
+}
+.footer-link{
+  margin: 20px;
+
+}
+a {
+  border: 50px;
+  color: #11999E;
+}
+/*images*/
+.web_dev_img {
+  height: 150px;
+  width: 150px;
+  float: left;
+  padding-right: 30px;
+}
+.data_img {
+  height: 150px;
+  width: 150px;
+  float: right;
+  padding-left: 30px;
+
+}
+.btn {
+  margin-top: 100px;
+   background: #3D94F6;
+   background-image: -webkit-linear-gradient(top, #3D94F6, #1E62D0);
+   background-image: -moz-linear-gradient(top, #3D94F6, #1E62D0);
+   background-image: -ms-linear-gradient(top, #3D94F6, #1E62D0);
+   background-image: -o-linear-gradient(top, #3D94F6, #1E62D0);
+   background-image: -webkit-gradient(to bottom, #3D94F6, #1E62D0);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   height: 15px;
+   line-height: 15px;
+   color: #FFFFFF;
+   font-family: Tahoma Script MT;
+   width: 211px;
+   font-size: 28px;
+   font-weight: 100;
+   padding: 40px;
+   -webkit-box-shadow: 1px 1px 20px 0 #000000;
+   -moz-box-shadow: 1px 1px 20px 0 #000000;
+   box-shadow: 1px 1px 20px 0 #000000;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #337FED 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.btn:hover {
+   border: solid #337FED 1px;
+   background: #1E62D0;
+   background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+hr {
+  border: dotted #EAf6f6 9px;
+  border-bottom: none;
+  width: 7%;
+  margin: 100px auto;
+
+}
